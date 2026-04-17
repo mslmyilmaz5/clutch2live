@@ -1,0 +1,28 @@
+<svg width="640" height="150" viewBox="0 0 640 150" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="c2lStroke" x1="48" y1="20" x2="592" y2="130" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#5CF2FF"/>
+      <stop offset="0.54" stop-color="#93B7FF"/>
+      <stop offset="1" stop-color="#B45DFF"/>
+    </linearGradient>
+    <linearGradient id="c2lFill" x1="70" y1="32" x2="572" y2="118" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#F4FFFF"/>
+      <stop offset="1" stop-color="#D8DEFF"/>
+    </linearGradient>
+    <filter id="c2lGlow" x="0" y="0" width="640" height="150" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+      <feGaussianBlur stdDeviation="4.2" result="blur"/>
+      <feBlend in="SourceGraphic" in2="blur" mode="screen"/>
+    </filter>
+  </defs>
+  <g filter="url(#c2lGlow)">
+    <path d="M87 98V49L133 30L170 45L160 66L132 55L111 64V90L133 99L162 88L170 109L132 123L87 98Z" fill="url(#c2lFill)" stroke="url(#c2lStroke)" stroke-width="3"/>
+    <path d="M188 118V34H216V118H188Z" fill="url(#c2lFill)" stroke="url(#c2lStroke)" stroke-width="3"/>
+    <path d="M234 118V34H262V91H302V118H234Z" fill="url(#c2lFill)" stroke="url(#c2lStroke)" stroke-width="3"/>
+    <path d="M316 118V34H370L382 58L370 84H344V118H316ZM344 61H359L364 52L359 43H344V61Z" fill="url(#c2lFill)" stroke="url(#c2lStroke)" stroke-width="3"/>
+    <path d="M388 118V34H458V58H416V67H450V89H416V94H462V118H388Z" fill="url(#c2lFill)" stroke="url(#c2lStroke)" stroke-width="3"/>
+    <path d="M473 118V34H503V94H544V118H473Z" fill="url(#c2lFill)" stroke="url(#c2lStroke)" stroke-width="3"/>
+    <path d="M548 118V34H578V118H548Z" fill="url(#c2lFill)" stroke="url(#c2lStroke)" stroke-width="3"/>
+    <path d="M76 24L56 14V39L76 30L96 39V14L76 24Z" fill="#66EEFF" fill-opacity="0.88"/>
+    <path d="M562 20L582 10V35L562 26L542 35V10L562 20Z" fill="#BA78FF" fill-opacity="0.88"/>
+  </g>
+</svg>
