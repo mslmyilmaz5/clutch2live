@@ -382,6 +382,12 @@ h2 {
   color: var(--text-muted);
 }
 
+.footer-links {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.8rem;
+}
+
 @media (max-width: 760px) {
   .content {
     width: min(1140px, calc(100% - 1.3rem));
